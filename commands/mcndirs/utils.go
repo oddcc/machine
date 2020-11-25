@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/machine/libmachine/mcnutils"
+	"docker-machine/libmachine/mcnutils"
 )
 
 var (

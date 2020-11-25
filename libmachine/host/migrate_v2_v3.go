@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/docker/machine/libmachine/log"
+	"docker-machine/libmachine/log"
 )
 
 type RawHost struct {

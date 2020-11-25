@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/log"
+	"docker-machine/libmachine"
+	"docker-machine/libmachine/log"
 )
 
 func cmdRegenerateCerts(c CommandLine, api libmachine.API) error {

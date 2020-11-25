@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff"
-	"github.com/docker/machine/drivers/driverutil"
-	"github.com/docker/machine/libmachine/log"
+	"docker-machine/drivers/driverutil"
+	"docker-machine/libmachine/log"
 	raw "google.golang.org/api/compute/v1"
 
 	"errors"

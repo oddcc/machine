@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/docker/machine/libmachine/mcnflag"
+	"docker-machine/libmachine/mcnflag"
 	"github.com/stretchr/testify/assert"
 )
 

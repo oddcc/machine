@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/cert"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/provision/serviceaction"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/cert"
+	"docker-machine/libmachine/engine"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/mcnutils"
+	"docker-machine/libmachine/provision/serviceaction"
 )
 
 type DockerOptions struct {

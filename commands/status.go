@@ -2,8 +2,8 @@ package commands
 
 import (
 	"fmt"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/log"
+	"docker-machine/libmachine"
+	"docker-machine/libmachine/log"
 )
 
 func cmdStatus(c CommandLine, api libmachine.API) error {

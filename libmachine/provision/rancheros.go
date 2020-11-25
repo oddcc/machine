@@ -6,16 +6,16 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/machine/commands/mcndirs"
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/provision/pkgaction"
-	"github.com/docker/machine/libmachine/provision/serviceaction"
-	"github.com/docker/machine/libmachine/state"
-	"github.com/docker/machine/libmachine/swarm"
+	"docker-machine/commands/mcndirs"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/engine"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/mcnutils"
+	"docker-machine/libmachine/provision/pkgaction"
+	"docker-machine/libmachine/provision/serviceaction"
+	"docker-machine/libmachine/state"
+	"docker-machine/libmachine/swarm"
 )
 
 const (

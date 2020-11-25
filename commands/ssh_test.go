@@ -3,15 +3,15 @@ package commands
 import (
 	"testing"
 
-	"github.com/docker/machine/commands/commandstest"
-	"github.com/docker/machine/drivers/fakedriver"
-	"github.com/docker/machine/libmachine"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/host"
-	"github.com/docker/machine/libmachine/libmachinetest"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/ssh/sshtest"
-	"github.com/docker/machine/libmachine/state"
+	"docker-machine/commands/commandstest"
+	"docker-machine/drivers/fakedriver"
+	"docker-machine/libmachine"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/host"
+	"docker-machine/libmachine/libmachinetest"
+	"docker-machine/libmachine/ssh"
+	"docker-machine/libmachine/ssh/sshtest"
+	"docker-machine/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

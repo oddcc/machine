@@ -16,8 +16,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/version"
+	"docker-machine/libmachine/log"
+	"docker-machine/version"
 )
 
 const (

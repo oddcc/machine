@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/mcnutils"
-	"github.com/docker/machine/libmachine/ssh"
-	"github.com/docker/machine/libmachine/state"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/mcnflag"
+	"docker-machine/libmachine/mcnutils"
+	"docker-machine/libmachine/ssh"
+	"docker-machine/libmachine/state"
 
 	"github.com/rackspace/gophercloud"
 )

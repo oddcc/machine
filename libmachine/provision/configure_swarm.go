@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcndockerclient"
-	"github.com/docker/machine/libmachine/swarm"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/engine"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/mcndockerclient"
+	"docker-machine/libmachine/swarm"
 	"github.com/samalba/dockerclient"
 )
 

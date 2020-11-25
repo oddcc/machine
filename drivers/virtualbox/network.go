@@ -10,7 +10,7 @@ import (
 
 	"runtime"
 
-	"github.com/docker/machine/libmachine/log"
+	"docker-machine/libmachine/log"
 )
 
 const (

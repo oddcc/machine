@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/docker/machine/commands/commandstest"
+	"docker-machine/commands/commandstest"
 )
 
 const (

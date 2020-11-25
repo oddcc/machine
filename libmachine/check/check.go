@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/cert"
-	"github.com/docker/machine/libmachine/host"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/cert"
+	"docker-machine/libmachine/host"
 )
 
 var (

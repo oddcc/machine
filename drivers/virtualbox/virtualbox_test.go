@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/state"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/state"
 	"github.com/stretchr/testify/assert"
 )
 

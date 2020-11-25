@@ -3,9 +3,9 @@ package errdriver
 import (
 	"fmt"
 
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/state"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/mcnflag"
+	"docker-machine/libmachine/state"
 )
 
 type Driver struct {

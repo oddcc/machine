@@ -6,7 +6,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/docker/machine/libmachine"
+	"docker-machine/libmachine"
 )
 
 var funcMap = template.FuncMap{

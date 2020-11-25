@@ -3,7 +3,7 @@ package cli
 import (
 	"testing"
 
-	"github.com/docker/machine/its"
+	"docker-machine/its"
 )
 
 func TestStatus(t *testing.T) {

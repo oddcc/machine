@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/provision/pkgaction"
-	"github.com/docker/machine/libmachine/swarm"
-	"github.com/docker/machine/libmachine/versioncmp"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/engine"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/provision/pkgaction"
+	"docker-machine/libmachine/swarm"
+	"docker-machine/libmachine/versioncmp"
 )
 
 const (

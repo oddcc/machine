@@ -3,10 +3,10 @@ package host
 import (
 	"path/filepath"
 
-	"github.com/docker/machine/libmachine/auth"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/engine"
-	"github.com/docker/machine/libmachine/swarm"
+	"docker-machine/libmachine/auth"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/engine"
+	"docker-machine/libmachine/swarm"
 )
 
 type AuthOptionsV1 struct {

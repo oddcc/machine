@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/docker/machine/drivers/azure/azureutil"
-	"github.com/docker/machine/libmachine/drivers"
-	"github.com/docker/machine/libmachine/log"
-	"github.com/docker/machine/libmachine/mcnflag"
-	"github.com/docker/machine/libmachine/state"
+	"docker-machine/drivers/azure/azureutil"
+	"docker-machine/libmachine/drivers"
+	"docker-machine/libmachine/log"
+	"docker-machine/libmachine/mcnflag"
+	"docker-machine/libmachine/state"
 
 	"github.com/Azure/azure-sdk-for-go/arm/storage"
 )
